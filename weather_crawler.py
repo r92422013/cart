@@ -4,7 +4,7 @@ import time
 import pymysql
 
 # 資料庫設定
-DB = pymysql.connect(user='root', password='Iyr-670611', host='localhost',
+DB = pymysql.connect(user='root', password='********', host='localhost',
                      port=3306, database='test', charset='utf8')
 
 # 要更新爬蟲資料必須先刪除舊資料
